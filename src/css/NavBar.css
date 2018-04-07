@@ -1,0 +1,45 @@
+div div {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(0, 134, 75);
+}
+
+button {
+    display: inline-block;
+    border: none;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttons {
+    background-color: #333;
+}
+
+button:hover {
+    background-color: rgb(0, 134, 75);
+}
+
+h1 {
+    display: inline;
+    position: relative;
+    color: white;
+}
+
+img {
+    display: inline;
+    height: 40px;
+    width: 40px;
+}
+
+div {
+    background-color:rgb(0, 134, 75);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
