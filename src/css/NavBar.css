@@ -1,7 +1,6 @@
 div div {
     list-style-type: none;
     overflow: hidden;
-    background-color: rgb(0, 134, 75);
 }
 
 button {
@@ -13,30 +12,32 @@ button {
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
+    font-size: 16px;
 }
 
 .buttons {
     background-color: #333;
 }
 
+.navbar {
+    background-color: rgb(0, 134, 75);
+}
+
 button:hover {
     background-color: rgb(0, 134, 75);
 }
 
-h1 {
+.navbar h1 {
     display: inline;
     position: relative;
     color: white;
+    font-size: 34px;
 }
 
 img {
     display: inline;
     height: 40px;
     width: 40px;
-}
-
-div {
-    background-color:rgb(0, 134, 75);
 }
 
 button a {

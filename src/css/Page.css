@@ -1,0 +1,84 @@
+/*
+textarea {
+    font-size: 16px;
+    display: block;
+    border: green;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 6px 6px 6px 6px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+body {
+    background: #f4f4f4;
+}
+
+.FormPage {
+    background: white;
+    max-width: 720px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.FormPage__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormPage__form__item {
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 15px;
+    border-bottom: #ddd solid thin; */
+}
+
+.FormPage__form__item p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.FormPage__form__item label {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.FormPage__form__item input {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.FormPage__form__item__table label{
+    display: flex;
+    flex-direction: row;
+}
+
+.FormPage__form__item__table label input{
+    padding: 0px 0px 2px 2px;
+    margin: 4px;
+    font-size: 16px;
+}
+
+
+.FormPage__form__item textarea {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.FormPage__submit {
+    color: white;
+    background-color: green;
+    padding: 14px 32px;
+    border: none;
+    margin-top: 24px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+
+}

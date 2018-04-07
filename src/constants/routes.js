@@ -1,3 +1,4 @@
+export const HOME = "/";
 export const FORM = "/form";
 export const VIEW_FORM = "/viewform";
 export const CUSTOM_FORM = "/customform";

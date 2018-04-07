@@ -11,9 +11,17 @@ import LeaderStatsPage from './components/LeaderStatsPage';
 import NavBarPage from './components/NavBar';
 import SearchPage from './components/SearchPage';
 import ViewFormPage from './components/ViewFormPage';
+import HomePage from './components/HomePage';
 
 
 class App extends Component {
+constructor(props) {
+  super(props);
+  this.state = {
+
+  }
+}
+
   render() {
     return (
       <div className="App">
@@ -21,6 +29,7 @@ class App extends Component {
         <Router>
           <div>
             <NavBarPage />
+            <Route exact path={routes.HOME} component={() => <HomePage />} />
             <Route exact path={routes.FORM} component={() => <FormPage />} />
             <Route exact path={routes.VIEW_FORM} component={() => <ViewFormPage />} />
             <Route exact path={routes.CUSTOM_FORM} component={() => <CustomFormPage />} />
