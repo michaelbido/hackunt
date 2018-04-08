@@ -16,11 +16,12 @@ button {
 }
 
 .navbar {
-    background-color: rgb(0, 134, 75);
+    background-color: #00853E;
+    padding-top: 6px;
 }
 
 button:hover {
-    background-color: rgb(0, 134, 75);
+    background-color: #00853E;
 }
 
 .navbar h1 {
@@ -28,12 +29,13 @@ button:hover {
     position: relative;
     color: white;
     font-size: 34px;
+    font-weight: 400;
 }
 
-img {
-    display: inline;
-    height: 40px;
-    width: 40px;
+.navbar img {
+    float: left;
+    height: 120px;
+    width: 80px;
 }
 
 button a {

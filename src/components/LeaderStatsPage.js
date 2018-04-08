@@ -137,7 +137,7 @@ class UserData extends Component {
                 <div>
                     <h2>Student Found!</h2>
                     <h2>SI Leader Work And Student Attendance Trend Lines</h2>
-                    <h3>SI Work: Goto All Classes, Goto All Sessions, Met Professor and Observed</h3>
+                    <h3>SI Work Amount: Goto All Classes, Goto All Sessions, and Met Professor</h3>
                     <LineChart
                         axisLabels={{x: 'Attendance/Work of SI in Week', y: 'Number of Students Going to Sessions'}} 
                         axes

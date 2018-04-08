@@ -52,9 +52,18 @@
 .FormPage__form__item textarea {
     padding: 8px;
     font-size: 18px;
-    border: green;
+    border: rgb(192, 192, 192);
     border-style: solid;
     border-radius: 8px;
+}
+
+.FormPage__form__item textarea:focus {
+    padding: 8px;
+    font-size: 18px;
+    border: rgb(184, 184, 184);
+    border-style: solid;
+    border-radius: 8px;
+    border: green;
 }
 
 .FormPage__submit {
@@ -71,6 +80,6 @@
 
 .z {
     border-style: solid;
-    border-color: green;
+    border-color: rgb(139, 139, 139);
     border-radius: 6px;
 }
