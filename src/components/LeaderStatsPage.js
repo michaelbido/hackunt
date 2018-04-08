@@ -150,7 +150,7 @@ class UserData extends Component {
                             presentation1
                         ]}
                     />
-                    <h3>Number of Students Going to SI Sessions Per Week</h3>
+                    <h2>Number of Students Going to SI Sessions Per Week</h2>
                     <LineChart
                         axisLabels={{x: 'Attendance/Work of SI in Week', y: 'Number of Students Going to Sessions'}} 
                         axes
