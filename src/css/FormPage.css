@@ -68,3 +68,9 @@
     font-size: 20px;
 
 }
+
+.z {
+    border-style: solid;
+    border-color: green;
+    border-radius: 6px;
+}

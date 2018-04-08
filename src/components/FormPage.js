@@ -157,30 +157,30 @@ class FormPage extends Component {
               <h1>How many students did you have in your SI session?</h1>
               <div className="FormPage__form__item__table">
                 <label>
-                  <input type="text" name="mon" onChange={this.handleInputChange}/>
+                  <input type="text" name="mon" className="z" onChange={this.handleInputChange}/>
                   on Monday 
                 </label>
                 <label>
-                  <input type="text" name="tues" onChange={this.handleInputChange}/>
+                  <input type="text" name="tues" className="z" onChange={this.handleInputChange}/>
                   on Tuesday
                 </label>
                 <label>
-                  <input type="text" name="wed" onChange={this.handleInputChange}/>
+                  <input type="text" name="wed" className="z" onChange={this.handleInputChange}/>
                   on Wednesday 
                 </label>
                 <label>
-                  <input type="text" name="thurs" onChange={this.handleInputChange}/>
+                  <input type="text" name="thurs" className="z" onChange={this.handleInputChange}/>
                   on Thrusday
                 </label>
                 <label>
-                  <input type="text" name="fri" onChange={this.handleInputChange}/>
+                  <input type="text" name="fri" className="z" onChange={this.handleInputChange}/>
                   on Friday
                 </label>
               </div>
             </section>
             <section className="FormPage__form__item">
               <h1>{this.state.custom}</h1>
-              <textarea name="customInput" rows="7" cols="62" maxlength="400" onChange={this.handleInputChange}></textarea>
+              <textarea name="customInput" rows="7" cols="62" maxLength="400" onChange={this.handleInputChange}></textarea>
             </section>
             <input type="submit" value="Submit" className="FormPage__submit" onClick={this.submitData} />
           </form>
