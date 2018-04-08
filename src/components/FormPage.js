@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/Page.css';
+import '../css/FormPage.css';
 
 import firebase from '../firebase';
 
