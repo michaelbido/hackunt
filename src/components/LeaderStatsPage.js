@@ -150,7 +150,7 @@ class UserData extends Component {
                             presentation1
                         ]}
                     />
-                    <h2>Number of Students Going to SI Sessions Per Week</h2>
+                    <h3>Number of Students Going to SI Sessions Per Week</h3>
                     <LineChart
                         axisLabels={{x: 'Attendance/Work of SI in Week', y: 'Number of Students Going to Sessions'}} 
                         axes
@@ -163,7 +163,7 @@ class UserData extends Component {
                             presentation2
                         ]}
                     />
-                    <h3>Average number of students per week of the current SI</h3>
+                    <h2>Average number of students per week of the current SI</h2>
                     <p>The max average number of students: {max}</p>
                     <BarChart 
                         axisLabels={{x: 'Day of Week', y: 'Number of Students'}} 
