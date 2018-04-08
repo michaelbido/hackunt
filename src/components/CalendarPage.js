@@ -5,7 +5,7 @@ class CalendarPage extends Component {
     render() {
         return (
             <div>
-                <h1>View Form</h1>
+                <h1>Calendar Page</h1>
             </div>
         )
     }

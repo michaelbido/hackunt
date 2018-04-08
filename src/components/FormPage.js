@@ -75,7 +75,7 @@ class FormPage extends Component {
           mm = '0' + mm;
       } 
       today = mm + '_' + dd + '_' + yyyy;
-      //today = '04_07_2018';
+      // today = '03_28_2018';
 
       const db = firebase.database().ref('records/' + this.state.euid + '/' + today);
       db.set(this.state);
