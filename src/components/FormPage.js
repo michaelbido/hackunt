@@ -9,7 +9,7 @@ class FormPage extends Component {
     constructor () {
         super();
         this.state = {
-            custom: 'Any additional comments?',
+            custom: 'Any additional comments about this week?',
             euid: '',
             username: '',
             allClasses: 'no',
@@ -29,6 +29,37 @@ class FormPage extends Component {
       this.submitData = this.submitData.bind(this);
     }
 
+    componentWillMount() {
+      const db = firebase.database().ref('customQuestion/');
+      const question = db.once('value').then((snapshot) => {
+        var data = snapshot.val();
+        //console.log(data.question);
+        this.setState({
+          custom: data.question,
+          euid: '',
+          username: '',
+          allClasses: 'no',
+          classesWhy: '',
+          allSessions: 'no',
+          sessionsWhy: '',
+          meetProf: 'no',
+          observe: 'no',
+          mon: 0,
+          tues: 0,
+          wed: 0,
+          thurs: 0,
+          fri: 0,
+          customInput: ''
+        });
+      });
+    }
+
+    componentDidMount() {
+      console.log(this.state);
+      // this.setState(this.state);
+    }
+
+
     submitData(event) {
       event.preventDefault();
       // console.log(this.state);
@@ -43,7 +74,7 @@ class FormPage extends Component {
       if (mm < 10) {
           mm = '0' + mm;
       } 
-      today = mm + '-' + dd + '-' + yyyy;
+      today = mm + '_' + dd + '_' + yyyy;
 
       const db = firebase.database().ref('records/' + this.state.euid + '/' + today);
       db.set(this.state);

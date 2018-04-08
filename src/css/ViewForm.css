@@ -1,0 +1,10 @@
+
+.ViewForm {
+    background: white;
+    max-width: 740px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: border-box;
+}
