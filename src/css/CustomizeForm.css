@@ -1,5 +1,4 @@
-
-.ViewForm {
+.CustomizeForm {
     background: white;
     max-width: 740px;
     width: 100%;
@@ -7,9 +6,4 @@
     margin: 0 auto;
     text-align: left;
     box-sizing: border-box;
-}
-
-.singleItem {
-    border-top-style: solid;
-    border-top-color: dimgrey;
 }
