@@ -31,7 +31,7 @@ class FormPage extends Component {
 
     submitData(event) {
       event.preventDefault();
-      console.log(this.state);
+      // console.log(this.state);
       // get date
       var today = new Date();
       var dd = today.getDate();
